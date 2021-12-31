@@ -301,7 +301,7 @@ main section .customers_row1, main section .customers_row2 {
 
 @media screen and (min-width: 1024px) {
   .project_previews {
-    padding: 0 5rem;
+    padding: 1.75rem 5rem;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -317,7 +317,7 @@ main section .customers_row1, main section .customers_row2 {
 
 @media screen and (min-width: 1440px) {
   .project_previews {
-    padding: 0 12.5rem;
+    padding: 3rem 12.5rem;
   }
   .project_previews .project {
     max-width: 40%;
@@ -327,6 +327,57 @@ main section .customers_row1, main section .customers_row2 {
   }
   .project_previews .project p {
     font-size: 1.1rem;
+  }
+}
+
+.co-founder {
+  background: #2e3038;
+  padding: 1.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 3rem;
+}
+
+.co-founder h2 {
+  font-weight: 400;
+  font-size: 1.75rem;
+}
+
+.co-founder .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .co-founder {
+    padding: 1.75rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .co-founder {
+    padding: 3rem 5rem;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .co-founder {
+    padding: 3rem 12.5rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
