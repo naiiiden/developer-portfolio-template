@@ -65,7 +65,7 @@ header {
 
 @media screen and (min-width: 1024px) {
     header {
-        padding: 3rem;
+        padding: 3rem 5rem;
 
         .hamburger {
             display: none;
@@ -80,5 +80,11 @@ header {
                 }
             }
         }
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    header {
+        padding: 3rem 12.5rem;
     }
 }
