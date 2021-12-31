@@ -12,10 +12,22 @@ body {
     font-family: Inter, sans-serif;
     background: #0A0A0B;
     color: #fff;
+    position: relative;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, .logo, .contact {
     font-family: Prata, sans-serif;
+}
+
+p, a, li {
+    color: #848484;
+    text-decoration: none;
+}
+
+.contact { // The "Get in touch" button with yellow background
+    background: #FBE850;
+    color: #000;
+    padding: .5rem .75rem;
 }
 
 img {
