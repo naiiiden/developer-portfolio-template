@@ -101,7 +101,10 @@ header nav ul .center_links, header nav ul .end_links {
   header nav {
     flex-grow: 1;
   }
-  header nav ul .center_links, header nav ul .end_links {
+  header nav ul {
+    justify-content: center;
+  }
+  header nav ul .right-end, header nav ul .middle {
     margin-left: auto;
   }
 }

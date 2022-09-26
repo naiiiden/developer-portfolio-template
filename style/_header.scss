@@ -80,7 +80,9 @@ header {
             flex-grow: 1;
 
             ul {
-                .center_links, .end_links {
+                justify-content: center;
+
+                .right-end, .middle {
                     margin-left: auto;
                 }
             }
