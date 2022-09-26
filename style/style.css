@@ -110,85 +110,85 @@ header nav ul .center_links, header nav ul .end_links {
     padding: 1.75rem 12.5rem;
   }
 }
-main {
+.main {
   padding: 1.25rem;
 }
-main .text {
+.main .text {
   display: flex;
   flex-direction: column;
 }
-main .text h2 {
+.main .text h2 {
   font-weight: 400;
   font-size: 1.75rem;
 }
-main section {
+.main section {
   justify-content: center;
   padding: 1.25rem 0;
   display: flex;
   align-items: center;
   gap: 2rem;
 }
-main section img {
+.main section img {
   max-width: 6rem;
 }
-main section .customers_row1, main section .customers_row2 {
+.main section .customers_row1, .main section .customers_row2 {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
 @media screen and (min-width: 768px) {
-  main {
+  .main {
     padding: 1.75rem;
   }
-  main .text h2 {
+  .main .text h2 {
     font-size: 3rem;
   }
-  main .text p {
+  .main .text p {
     font-size: 1.165rem;
   }
-  main section {
+  .main section {
     padding: 3.5rem 0;
     flex-direction: column;
     gap: 1.5rem;
   }
-  main section img {
+  .main section img {
     max-width: 7rem;
   }
-  main section .customers_row1, main section .customers_row2 {
+  .main section .customers_row1, .main section .customers_row2 {
     width: 100%;
     flex-direction: row;
     justify-content: space-evenly;
   }
 }
 @media screen and (min-width: 1024px) {
-  main {
+  .main {
     padding: 3rem 5rem;
   }
-  main .text {
+  .main .text {
     max-width: 65%;
   }
-  main section {
+  .main section {
     padding: 6rem 0 1rem 0;
     flex-direction: row;
     justify-content: space-between;
   }
-  main section .customers_row1, main section .customers_row2 {
+  .main section .customers_row1, .main section .customers_row2 {
     justify-content: space-between;
     width: 43%;
   }
 }
 @media screen and (min-width: 1440px) {
-  main {
+  .main {
     padding: 3rem 12.5rem;
   }
-  main .text {
+  .main .text {
     max-width: 55%;
   }
-  main .text h2 {
+  .main .text h2 {
     font-size: 3.5rem;
   }
-  main .text p {
+  .main .text p {
     font-size: 1.25rem;
   }
 }
