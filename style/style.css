@@ -257,6 +257,9 @@ main section .customers_row1, main section .customers_row2 {
   flex-direction: column;
   gap: 1rem;
 }
+.co-founder .row p {
+  color: #BDBDBD;
+}
 
 @media screen and (min-width: 768px) {
   .co-founder {
